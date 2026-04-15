@@ -1,7 +1,10 @@
 from app.palindrom import is_palindrome
 
 def test_is_palindrom():
-    assert is_palindrome("Arora") == True
+    assert is_palindrome("Ar ora") == True
+
+def test_is_palindrom():    
+    assert is_palindrome("abc CBA") == True  
     
 
 # git init
